@@ -3,14 +3,14 @@ import cors from "cors";
 
 const app = express();
 
-app.use(cors({ origin: ["http://localhost:3000"] }));
+app.use(cors({ origin: ["http://localhost:5173"] }));
 
 const sampleEmployee = {
 	name: {
-		first: "Charlie",
-		last: "Thompson",
+		first: "Anna",
+		last: "Laugie",
 	},
-	email: "charlie.thompson@example.com",
+	email: "anna.laugie@example.com",
 	picture: {
 		medium: "https://randomuser.me/api/portraits/med/men/40.jpg",
 	},
